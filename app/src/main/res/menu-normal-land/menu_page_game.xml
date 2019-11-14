@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.blaiseciza.manguragame.PageGame">
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/niveau"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_preferences"/>
+    <item android:id="@+id/action_help"
+        android:title="@string/aide"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_help"
+        />
+    <item android:id="@+id/action_apropos"
+        android:title="@string/apropos"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_info_details"
+        />
+    <item android:id="@+id/action_media"
+        android:title="SOCIAL MEDIA"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/facebook"
+        />
+    <item android:id="@+id/action_isig"
+        android:title="ISIG-GOMA"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/isiglogo"
+        />
+    <item android:id="@+id/action_exit"
+        android:title="@string/quitter"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_delete"
+        />
+</menu>

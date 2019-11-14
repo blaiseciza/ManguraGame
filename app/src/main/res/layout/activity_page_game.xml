@@ -1,0 +1,664 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.blaiseciza.manguragame.PageGame"
+    android:weightSum="6">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/progressBar"
+            android:background="#ffdada00"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/btnRetourGam"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="true"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/bckground"
+            android:textColor="#ff080809"
+            android:textStyle="bold"
+            />
+        <!--android:background="@android:drawable/ic_media_rew"-->
+        <Button
+            android:id="@+id/btnCompte"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="true"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/bckground"
+            android:fontFamily="cursive"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+            android:textColor="#240C05"
+            android:textColorLink="#E1B47E"
+            android:textStyle="italic" />
+            />
+        <Button
+            android:id="@+id/btnNiveau"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="true"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/bckground"
+            android:fontFamily="cursive"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+            android:textColor="#240C05"
+            android:textColorLink="#E1B47E"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnMusic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="true"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/bckground"
+            android:textColor="#ff080809"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5.2"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"
+        android:background="#240c05"
+        android:weightSum="4.8">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:orientation="horizontal"
+            android:weightSum="8">
+
+            <Button
+                android:id="@+id/lm16"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lm15"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lm14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lm13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lm12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lm11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lm10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lm9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:orientation="horizontal"
+            android:weightSum="8">
+
+            <Button
+                android:id="@+id/lm1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lm2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lm3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lm4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lm5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lm6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lm7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lm8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:orientation="horizontal"
+            android:weightSum="8"
+            android:background="@drawable/separator">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:orientation="horizontal"
+            android:weightSum="8">
+
+            <Button
+                android:id="@+id/lp8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lp7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lp6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lp5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lp4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lp3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lp2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lp1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:orientation="horizontal"
+            android:weightSum="8">
+
+            <Button
+                android:id="@+id/lp9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lp10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lp11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lp12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lp13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lp14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lp15"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lp16"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/backtr"
+                android:fontFamily="cursive"
+                android:gravity="bottom|right|end"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView.PopupMenu"
+                android:textColor="#E1B47E"
+                android:textColorLink="#E1B47E"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:weightSum="4">
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!---->
+    <!--<item name="blue_">#ff00fffc</item>-->
+    <!--<item name="red">#ff151884</item>-->
+    <!--<item name="blue">#ff0006ff</item>-->
+    <!--<item name="green">#ff26ff00</item>-->
+    <color name="priorpage">#ffffff</color>
+</resources>

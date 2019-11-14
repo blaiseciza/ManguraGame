@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ISIG Mangura</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_page_game">PageGame</string>
+    <string name="title_activity_param_page">ParamPage</string>
+    <string name="title_activity_end_page">EndPage</string>
+    ///
+    ////
+    <string name="niveau">NIVEAU \n Choisissez votre niveau ici!</string>
+    <string name="facile">Facile</string>
+    <string name="difficile">Difficile</string>
+    ///
+    <string name="langue">LANGUE</string>
+    <string name="francais">Français</string>
+    <string name="anglais">Anglais</string>
+    ///
+    <string name="musique">MUSIQUE</string>
+    <string name="jouer">Jouer</string>
+    <string name="stopper">Stopper</string>
+    ///////////////////
+    <string name="parametre">PARAMETRE</string>
+    <string name="aide">AIDE</string>
+    <string name="apropos">A PROPOS</string>
+    ///
+    <string name="continuer">Continuer</string>
+    <string name="quitter">Quitter</string>
+    <string name="title_activity_apropos">AproposActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+
+    <string name="apropos_jeu">
+        ====ISIG MANGURA====\n
+        *\t\t\t\tPROMOTEURS  :\n
+        -Dr. Déo KATULANYA \n
+        -Prof. Dr. Lucien ZIHINDULA\n\n
+        *\t\t\t\tENCADREUR   : \n
+        Pacifique BAYONGWA \n\n
+        *\t\t\t\tPROGRAMMEUR : \n
+        Blaise CIZA (Etudiant en troisieme année) \n\n
+        *\t\t\t\tCONTACTS\n
+        mail     :\n cizablaise@gmail.com\n
+        whatsapp :\n +243992963769\n
+        Facebook Page : \n Mangura Game\n
+        ==> Cliquez sur l\'icone facebook juste au dessus(dans la barre des menus)\n pour nous rejoindre sur FACEBOOK.\n
+        \n    GROUPE\n
+        -Thonny BASHIZI >>G3 IG\n
+        -Styve MIRENGE  >>G2 IG\n
+        -Dan BARUKA     >>G3 IG\n
+        -Gloire Kalisa  >>L1 IG\n
+        -Joseph KALEMA  >>G3 IG\n
+        -Glodi Maley    >>G3 IG\n\n\n
+        \t\t\t\t>>>2017-2018
+    </string>
+
+    <string name="help_jeu">
+
+        Mangura est l\'appelation du jeu dit awale joué à l\'Est de la RDC.\n
+        Ce jeu se joue à deux personnes;\n
+        Les règles de l\'Awalé sont simples et le jeu est vraiment très facile à apprendre.
+        Par contre, les stratégies à mettre en oeuvre pour vaincre sont redoutables !
+        \n Les règles varient d\'une région à l\'autre, et parfois même d\'un village à l\'autre.. .\n
+        Si les règles de l\'Awalé sont très diverses (et c\'est ce qui fait l\'intérêt incontestable de ce jeu !),
+        voici les règles de Mangura :
+        \nRègle 1 : But du jeu\n Le but du jeu est de s\'emparer d\'un maximum de graines.
+        Le joueur qui a le plus de graines à la fin de la partie l\'emporte.
+        \nRègle 2 : Le terrain de jeu\nLe terrain de jeu est divisé en deux territoires de 16 trous chacun.
+        Votre territoire est en bas, c\'est le territoire Sud; celui de votre adversaire est au dessus,
+        c\'est le territoire Nord. Chaque territoire possède des sous territoires.
+        Au départ dans les 16 trous des sous territoires Nords sont réparties 64 graines (4 par trou).\n
+        Règle 3 : Le tour de jeu.\n
+        Chaque joueur joue à son tour, celui qui joue en premier est tiré au hasard.
+        Le joueur va prendre l\'ensemble des graines présentes dans l\'un des trous de son territoire et les distribuer,
+        une par trou, dans le sens inverse des aiguilles d\'une montre.\n
+        Règle 4 : Capture\n
+        Si la dernière graine semée tombe dans un trou comportant déjà 1 ou plusieurs graines,
+        le joueur capture les graines de l\'autre coté dans le territoire de l\'adversaire s\'il y a en
+        dans les 2 sous territoires correspondantes.
+        Les graines capturées sont utilisées pour remplir encore les cases du territoire qui reçoit ces graines(capture).
+        (Les trous sont alors laissés vide)\n
+        Règle 5: Fin de jeu Le jeu se termine lorsque : \n
+        - Un joueur n\'a plus de graines dans son camp et ne peut donc plus jouer.
+
+	</string>
+    <string name="resultat_Reussi">Vous avez reussi</string>
+    <string name="resultat_Echec">Vous avez Echoué</string>
+    <string name="title_activity_splash">Tache</string>
+
+</resources>
